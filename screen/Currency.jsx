@@ -21,7 +21,7 @@ export default function CurrencyConverter(){
                     value={amount}
                     onChangeText={text => setAmount(text)}
                     keyboardType="numeric"
-                    style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 5, padding: 10, marginTop: 20, width: 200, height: 50 }}
+                    style={{ borderWidth: 1, borderColor: 'gray', borderRadius: 6, padding: 10, marginTop: 20, width: 200, height: 50 }}
                 />
                 <TouchableOpacity onPress={convertCurrency}>
                     <Text style={{ backgroundColor: 'gray', color: 'white', padding: 10, marginTop: 10, borderRadius: 5, width: 200, height: 50 }}>Convert</Text>
